@@ -1,0 +1,29 @@
+-Menu screen
+-UFO comes out randomly, interval between 30 and 40 seconds.  It comes out on a random side also, right or left.  Special sound when killed.
+-4 different sounds for alien marching.  Every march it plays a sound and cycles to the next.
+-Alien grid is 5x11, its movement and animation are synchronized
+-Ship controlled by left and right arrows
+-Shoot missile, only 1 at a time, using the State pattern
+-Shoot alien removes it from the grid
+-Shooting alien updates score
+-Alien splat animation
+-Also splat animation when the missile hits the top wall
+-Toggle collision boxes on by pressing C
+-Shooting out an entire column makes the grid adjust
+-Aliens drop 3 kinds of bombs, fully animated
+-UFO drops its own special bomb rarely
+-Missiles and bombs can collide and destroy each other, has a special animation looks like a white cloud
+-4 Shields
+-Shields can be damaged by the missile, or the bombs
+-Shields can be completely destroyed
+-Can drill a hole through shield and shoot through it
+-Ship death has its own animation and sound.  Decrements number of player lives, if player lives are 0 then its game over.
+-If ship hits an alien, its immediate game over.
+-Speed of grid movement increases as aliens are killed.
+
+New wave:
+
+-Speed of grid movement also increases 4% for each new wave.
+-The position of the grid also gets 4% closer to the ship for each new wave.
+-New waves come out forever until a game over occurs.
+-Once there's a game over, high score is updated at the top of the screen.

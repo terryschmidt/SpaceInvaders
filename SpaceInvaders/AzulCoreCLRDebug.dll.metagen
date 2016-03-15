@@ -1,0 +1,263 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AzulCoreCLRDebug, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Azul.Color: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Azul.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Single red : Public
+    Single green : Public
+    Single blue : Public
+    Single alpha : Public
+  Methods:
+    Set(Color): PrivateScope, Public, HideBySig
+    Set(Single, Single, Single): PrivateScope, Public, HideBySig
+    Set(Single, Single, Single, Single): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Azul.Game: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Initialize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LoadContent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Update(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Draw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnLoadContent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetScreenWidth(): PrivateScope, Public, HideBySig
+    GetScreenHeight(): PrivateScope, Public, HideBySig
+    GetTime(): PrivateScope, Public, HideBySig
+    Run(): PrivateScope, Public, HideBySig
+    Quit(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Azul.Input: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetKeyState(AZUL_MOUSE): PrivateScope, Public, Static, HideBySig
+    GetKeyState(AZUL_KEY): PrivateScope, Public, Static, HideBySig
+    GetCursor(Single&, Single&): PrivateScope, Public, Static, HideBySig
+Struct Azul.AZUL_KEY: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Azul.AZUL_KEY KEY_SPACE = 32 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_APOSTROPHE = 39 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_COMMA = 44 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_MINUS = 45 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_PERIOD = 46 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_SLASH = 47 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_0 = 48 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_1 = 49 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_2 = 50 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_3 = 51 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_4 = 52 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_5 = 53 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_6 = 54 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_7 = 55 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_8 = 56 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_9 = 57 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_SEMICOLON = 59 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_EQUAL = 61 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_A = 65 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_B = 66 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_C = 67 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_D = 68 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_E = 69 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F = 70 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_G = 71 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_H = 72 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_I = 73 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_J = 74 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_K = 75 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_L = 76 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_M = 77 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_N = 78 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_O = 79 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_P = 80 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_Q = 81 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_R = 82 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_S = 83 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_T = 84 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_U = 85 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_V = 86 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_W = 87 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_X = 88 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_Y = 89 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_Z = 90 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_LEFT_BRACKET = 91 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_BACKSLASH = 92 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_RIGHT_BRACKET = 93 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_GRAVE_ACCENT = 96 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_WORLD_1 = 161 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_WORLD_2 = 162 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_ARROW_UP = 283 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_ARROW_DOWN = 284 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_ARROW_LEFT = 285 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_ARROW_RIGHT = 286 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_ESCAPE = 256 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_ENTER = 257 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_TAB = 258 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_BACKSPACE = 259 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_INSERT = 260 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_DELETE = 261 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_RIGHT = 262 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_LEFT = 263 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_DOWN = 264 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_UP = 265 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_PAGE_UP = 266 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_PAGE_DOWN = 267 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_HOME = 268 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_END = 269 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_CAPS_LOCK = 280 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_SCROLL_LOCK = 281 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_NUM_LOCK = 282 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_PRINT_SCREEN = 283 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_PAUSE = 284 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F1 = 290 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F2 = 291 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F3 = 292 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F4 = 293 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F5 = 294 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F6 = 295 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F7 = 296 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F8 = 297 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F9 = 298 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F10 = 299 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F11 = 300 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F12 = 301 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F13 = 302 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F14 = 303 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F15 = 304 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F16 = 305 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F17 = 306 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F18 = 307 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F19 = 308 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F20 = 309 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F21 = 310 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F22 = 311 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F23 = 312 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F24 = 313 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_F25 = 314 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_0 = 320 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_1 = 321 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_2 = 322 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_3 = 323 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_4 = 324 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_5 = 325 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_6 = 326 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_7 = 327 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_8 = 328 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_9 = 329 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_DECIMAL = 330 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_DIVIDE = 331 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_MULTIPLY = 332 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_SUBTRACT = 333 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_ADD = 334 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_ENTER = 335 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_KP_EQUAL = 336 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_LEFT_SHIFT = 340 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_LEFT_CONTROL = 341 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_LEFT_ALT = 342 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_LEFT_SUPER = 343 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_RIGHT_SHIFT = 344 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_RIGHT_CONTROL = 345 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_RIGHT_ALT = 346 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_RIGHT_SUPER = 347 : Public, Static, Literal, HasDefault
+    Azul.AZUL_KEY KEY_MENU = 348 : Public, Static, Literal, HasDefault
+Struct Azul.AZUL_MOUSE: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Azul.AZUL_MOUSE BUTTON_1 = 0 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_2 = 1 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_3 = 2 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_4 = 3 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_5 = 4 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_6 = 5 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_7 = 6 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_8 = 7 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_LEFT = 0 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_RIGHT = 1 : Public, Static, Literal, HasDefault
+    Azul.AZUL_MOUSE BUTTON_MIDDLE = 2 : Public, Static, Literal, HasDefault
+Class Azul.Rect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Azul.Rect): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Single x : Public
+    Single y : Public
+    Single width : Public
+    Single height : Public
+  Methods:
+    Set(Single, Single, Single, Single): PrivateScope, Public, HideBySig
+    Set(Rect): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Azul.Texture: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Azul.Texture_Filter, Azul.Texture_Filter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Set(String, Texture_Filter, Texture_Filter): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Azul.Sprite: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Azul.Texture, Azul.Rect, Azul.Rect, Azul.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Azul.Texture, Azul.Rect, Azul.Rect): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Single angle : Public
+    Single sx : Public
+    Single sy : Public
+    Single x : Public
+    Single y : Public
+  Methods:
+    Update(): PrivateScope, Public, HideBySig
+    Render(): PrivateScope, Public, HideBySig
+    SwapTexture(Texture): PrivateScope, Public, HideBySig
+    SwapTextureRect(Rect): PrivateScope, Public, HideBySig
+    SwapColor(Color): PrivateScope, Public, HideBySig
+    SwapScreenRect(Rect): PrivateScope, Public, HideBySig
+    Swap(Texture, Rect, Rect, Color): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct Azul.Texture_Filter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Azul.Texture_Filter NEAREST = 0 : Public, Static, Literal, HasDefault
+    Azul.Texture_Filter LINEAR = 1 : Public, Static, Literal, HasDefault
+Class Azul.SpriteBox: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Azul.Rect, Azul.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Single angle : Public
+    Single sx : Public
+    Single sy : Public
+    Single x : Public
+    Single y : Public
+  Methods:
+    Update(): PrivateScope, Public, HideBySig
+    Render(): PrivateScope, Public, HideBySig
+    SwapColor(Color): PrivateScope, Public, HideBySig
+    SwapScreenRect(Rect): PrivateScope, Public, HideBySig
+    Swap(Rect, Color): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

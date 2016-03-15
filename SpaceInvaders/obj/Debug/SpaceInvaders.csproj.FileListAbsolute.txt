@@ -1,0 +1,9 @@
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe.config
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\bin\Debug\AzulCoreCLRDebug.dll
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\bin\Debug\irrKlang.NET4.dll
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\bin\Debug\AzulCoreCLRDebug.pdb
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csprojResolveAssemblyReference.cache
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.exe
+C:\Users\terry\Google Drive\DePaulClasses\Architecture of Computer Games\workspace\student\tschmidt\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.pdb
